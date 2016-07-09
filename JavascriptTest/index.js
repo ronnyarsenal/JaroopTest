@@ -60,6 +60,7 @@ x.style.float = "right";
            	    	function remove()
 					{
 					positivelist.removeChild(item);
+					resetform();
 					}					
 	}
 	else
@@ -70,6 +71,7 @@ x.style.float = "right";
 	           	    function remove()
 					{
 					negativelist.removeChild(item);
+					resetform()
 					}	
 	}
 
