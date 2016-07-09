@@ -1,0 +1,45 @@
+#bodywrapper{
+	height:400px;
+	width:100%;
+}
+
+#inputbox{
+background-color: white; 
+height: 350px;
+width: 330px;
+border-color:"black";
+border-style:"double";
+margin-top:"30px";
+}
+
+#inputwrapper{
+	margin-left:75px;
+}
+
+#positive{
+background-color: white;
+height: 350px;
+width: 325px;	
+margin-left:350px;	
+margin-top:-366px;
+}
+
+
+#positivelist{
+	margin-left:-136px;
+}
+
+#negativelist{
+	margin-left:-72px;
+}
+#negative{
+background-color: white;
+height: 350px;
+width: 390px;
+margin-left:725px;
+margin-top:-332px;	
+}
+
+#labelNegative{
+margin-left:500px;
+}

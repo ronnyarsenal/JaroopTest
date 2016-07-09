@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<Head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<script type="text/javascript" src="jquery-3.0.0.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+</Head>
+<Header>Javacript Test</Header>
+<body onload="loadpage()">
+<div id="bodywrapper">
+	<div id="inputbox">
+	<div id="inputwrapper"
+	<label>Term:</label><label id="invalidterm"> This field is required.</label>
+	<div></div>
+    <input type="input" id="inputTerm">
+	<div></div>
+	<label>Type:</label><label id="invalidtype"> This field is required.</label>
+	<div></div>
+	<select id="inputType">
+	  <option value="choose">Choose a Type</option>
+	  <option value="positive">Positive</option>
+	  <option value="negative">Negative</option>
+	</select>
+	<div></div>
+	<input type="submit" value="Add Term" onclick="AddTerm()">
+	</div>
+	</div>
+<div id="positive">
+<label>Positive:</label><label id="labelNegative">Negative:</label>
+<ul id="positivelist">
+</ul>
+
+</div>
+<div id="negative">
+<ul id="negativelist">
+</ul>
+</div>	
+</div>
+	
+</body>
+<footer></footer>
+
